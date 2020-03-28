@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "CoronaInfo",
+    "slug": "coronainfo",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "2.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/corona.png",
+    "splash": {
+      "image": "./assets/Splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.sadman.coronainfo",
+      "versionCode": 1
+    },
+    "description": ""
+  }
+}
